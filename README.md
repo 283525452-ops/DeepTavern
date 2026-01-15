@@ -1,4 +1,3 @@
-您说得非常对！非常感谢您的指正。
 # 🏰 DeepTavern Core (v0.5)
 
 ![Version](https://img.shields.io/badge/version-v0.5.0-blue)

@@ -1,33 +1,33 @@
-# --- Web æ¡†æž¶ä¸Ž API ---
+# --- Web ¿ò¼ÜÓë API ---
 fastapi>=0.109.0
 uvicorn>=0.27.0
 sse-starlette>=2.0.0
 websockets>=12.0
 
-# --- GUI ç•Œé¢ ---
+# --- GUI ½çÃæ ---
 PyQt6>=6.6.0
 PyQt6-Fluent-Widgets>=1.5.0
 
-# --- æ•°æ®åº“ä¸Žå­˜å‚¨ ---
+# --- Êý¾Ý¿âÓë´æ´¢ ---
 chromadb>=0.4.22
 redis>=5.0.1
 networkx>=3.2.1
 
-# --- LLM ä¸Ž AI å·¥å…· ---
+# --- LLM Óë AI ¹¤¾ß ---
 openai>=1.12.0
 llama_cpp_python>=0.2.55
-# æ³¨æ„: PyTorch (torch) å»ºè®®ç”¨æˆ·æ ¹æ®æ˜¾å¡æ‰‹åŠ¨å®‰è£…ï¼Œæ­¤å¤„ä¸å¼ºåˆ¶ä¾èµ–
+# ×¢Òâ: PyTorch (torch) ½¨ÒéÓÃ»§¸ù¾ÝÏÔ¿¨ÊÖ¶¯°²×°£¬´Ë´¦²»Ç¿ÖÆÒÀÀµ
 tokenizers>=0.15.0
 numpy
 
-# --- ç½‘ç»œçˆ¬è™«ä¸Žè§£æž ---
+# --- ÍøÂçÅÀ³æÓë½âÎö ---
 requests>=2.31.0
 httpx>=0.26.0
 beautifulsoup4>=4.12.0
 trafilatura>=1.6.0
 duckduckgo_search>=4.0.0
 
-# --- å·¥å…·ä¸Žæ—¥å¿— ---
+# --- ¹¤¾ßÓëÈÕÖ¾ ---
 colorlog>=6.8.0
 coloredlogs>=15.0.1
 python-dotenv>=1.0.0

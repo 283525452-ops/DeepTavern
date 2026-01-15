@@ -47,7 +47,7 @@ from qfluentwidgets import (
 class Config:
     """应用配置常量"""
     DEFAULT_IP = "127.0.0.1"
-    DEFAULT_PORT = "8000"
+    DEFAULT_PORT = "8001"
     WS_PING_INTERVAL = 20
     WS_OPEN_TIMEOUT = 5
     API_TIMEOUT = 5
@@ -768,7 +768,7 @@ class SettingInterface(QFrame):
         
         self.port_input = LineEdit(self)
         self.port_input.setText(Config.DEFAULT_PORT)
-        self.port_input.setPlaceholderText("例如: 8000")
+        self.port_input.setPlaceholderText("例如: 8001")
         
         self.save_btn = PrimaryPushButton("保存并重连", self)
         self.save_btn.clicked.connect(self.apply_settings)

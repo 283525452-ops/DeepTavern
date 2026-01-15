@@ -1,0 +1,38 @@
+# --- Web 框架与 API ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+sse-starlette>=2.0.0
+websockets>=12.0
+
+# --- GUI 界面 ---
+PyQt6>=6.6.0
+PyQt6-Fluent-Widgets>=1.5.0
+
+# --- 数据库与存储 ---
+chromadb>=0.4.22
+redis>=5.0.1
+networkx>=3.2.1
+
+# --- LLM 与 AI 工具 ---
+openai>=1.12.0
+llama_cpp_python>=0.2.55
+# 注意: PyTorch (torch) 建议用户根据显卡手动安装，此处不强制依赖
+tokenizers>=0.15.0
+numpy
+
+# --- 网络爬虫与解析 ---
+requests>=2.31.0
+httpx>=0.26.0
+beautifulsoup4>=4.12.0
+trafilatura>=1.6.0
+duckduckgo_search>=4.0.0
+
+# --- 工具与日志 ---
+colorlog>=6.8.0
+coloredlogs>=15.0.1
+python-dotenv>=1.0.0
+tenacity>=8.2.0
+markdown>=3.5.0
+jinja2>=3.1.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0

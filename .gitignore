@@ -1,0 +1,65 @@
+# --- Python 编译与缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 虚拟环境 (绝对不能上传) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE 配置 ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- 敏感配置文件 ---
+config.json
+config/local_settings.py
+.env
+
+# --- 数据库与持久化数据 ---
+data/*.db
+data/*.sqlite
+data/chroma_db/
+data/graphs/
+
+# --- 运行日志 ---
+logs/*.log
+*.log
+
+# --- 模型文件 (大文件) ---
+models/*.gguf
+models/*.bin
+models/*.pth
+models/huggingface/
+
+# --- 临时文件 ---
+*.tmp
+*.bak
+.DS_Store
+
+# --- Redis 数据 ---
+Redis/*.rdb
+Redis/*.aof
+Redis/*.exe
+Redis/*.conf

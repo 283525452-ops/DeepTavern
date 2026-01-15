@@ -242,8 +242,8 @@ async def lifespan(app: FastAPI):
     # 启动时
     main_event_loop = asyncio.get_running_loop()
     logger.info("🚀 DeepTavern API Server 已启动")
-    logger.info(f"📡 API 文档: http://localhost:8000/docs")
-    logger.info(f"🔌 WebSocket: ws://localhost:8000/ws/logs")
+    logger.info(f"📡 API 文档: http://localhost:8001/docs")
+    logger.info(f"🔌 WebSocket: ws://localhost:8001/ws/logs")
     
     yield
     
@@ -756,8 +756,8 @@ if __name__ == "__main__":
     ║                                                          ║
     ║   🏰 DeepTavern API Server v4.5.0                        ║
     ║                                                          ║
-    ║   API Docs:  http://localhost:8000/docs                  ║
-    ║   WebSocket: ws://localhost:8000/ws/logs                 ║
+    ║   API Docs:  http://localhost:8001/docs                  ║
+    ║   WebSocket: ws://localhost:8001/ws/logs                 ║
     ║                                                          ║
     ╚══════════════════════════════════════════════════════════╝
     """)
@@ -765,7 +765,7 @@ if __name__ == "__main__":
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8000,
+        port=8001,
         # WebSocket 心跳配置
         ws_ping_interval=20,
         ws_ping_timeout=20,
